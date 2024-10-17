@@ -28,7 +28,7 @@ const friends = friendsSnapshot.docs.map((doc) => ({
 	<ul>
 		{
 			friends.map((friend) => (
-				<li key={friend.id}>
+				<li id={friend.id}>
 					<a href={`/friend/${friend.id}`}>{friend.name}</a>
 					<span> ({friend.age})</span>
 					<strong>
