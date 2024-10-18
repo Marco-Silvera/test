@@ -9,6 +9,6 @@ const $$Layout = createComponent(($$result, $$props, $$slots) => {
   Astro2.self = $$Layout;
   const { title } = Astro2.props;
   return renderTemplate`<html lang="en"> <head><meta charset="UTF-8"><meta name="description" content="Astro description"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator"${addAttribute(Astro2.generator, "content")}><title>${title}</title>${renderHead()}</head> <body> ${renderSlot($$result, $$slots["default"])} </body></html>`;
-}, "D:/Desarrollo web/Frontend/repositorios/test/src/layouts/Layout.astro", void 0);
+}, "C:/Users/Marco Silvera/Desktop/Sitio Web/repositorios/test/src/layouts/Layout.astro", void 0);
 
 export { $$Layout as $ };

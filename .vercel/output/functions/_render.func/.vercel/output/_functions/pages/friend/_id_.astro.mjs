@@ -1,7 +1,7 @@
 /* empty css                                  */
 import { c as createComponent, r as renderTemplate, f as renderComponent, e as createAstro, m as maybeRenderHead } from '../../chunks/astro/server_Bh2iU0um.mjs';
 import 'kleur/colors';
-import { $ as $$Layout } from '../../chunks/Layout_BTKL6Dqq.mjs';
+import { $ as $$Layout } from '../../chunks/Layout_BhJoR5pO.mjs';
 import { a as app } from '../../chunks/server_1hFA-0b5.mjs';
 import { getFirestore } from 'firebase-admin/firestore';
 export { renderers } from '../../renderers.mjs';
@@ -22,9 +22,9 @@ const $$id = createComponent(async ($$result, $$props, $$slots) => {
   }
   const friend = friendSnapshot.data();
   return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": friend.name }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<h1>${friend.name}</h1> <p>Edad: ${friend.age}</p> <p>Es mejor amigo: ${friend.isBestFriend ? "Si" : "No"}</p> ` })}`;
-}, "D:/Desarrollo web/Frontend/repositorios/test/src/pages/friend/[id].astro", void 0);
+}, "C:/Users/Marco Silvera/Desktop/Sitio Web/repositorios/test/src/pages/friend/[id].astro", void 0);
 
-const $$file = "D:/Desarrollo web/Frontend/repositorios/test/src/pages/friend/[id].astro";
+const $$file = "C:/Users/Marco Silvera/Desktop/Sitio Web/repositorios/test/src/pages/friend/[id].astro";
 const $$url = "/friend/[id]";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
